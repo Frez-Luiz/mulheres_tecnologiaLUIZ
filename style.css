@@ -1,9 +1,9 @@
-body { 
+body {
     background-color: rgb(208, 246, 255);
     font-size: 16px;
 }
 
-.cabecalho{
+.cabecalho {
     background-color: rgb(228, 228, 228);
     color: rgb(15, 15, 15);
     padding-top: 30px;
@@ -15,54 +15,68 @@ body {
     gap: 30%;
 }
 
-.menu ul a{
+.menu ul a {
     text-decoration: none;
-    color:rgb(8, 143, 233);
+    color: rgb(8, 143, 233);
     text-align: right;
     margin-left: 30px;
     font-size: 24px;
 }
 
-.menu{
+.menu {
     text-align: end;
 }
-#titulo {
 
-}
+#titulo {}
 
 p {
-    
+    color: rgb(0, 0, 0);
+    font-family: Calibri, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 6px 8px;
+    text-align: center;
+
 }
 
 .imgcentro {
-
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border-radius: 22px;
 }
 
 
-ul{
+
+
+
+
+ul {
     font-size: 16px;
 }
 
-li{
+li {
     display: inline-block;
-   
+
 }
 
-li a{
+li a {
     font-size: 50px;
 
 }
 
-button{
+button {
     font-size: 16px;
     color: rgb(255, 0, 132);
 }
 
-footer{
-     position: fixed;
-     bottom: 0;
-     background-color: rgb(145, 211, 255);
-     font-size: 30px;
-     width: 100%;
-     text-align: center;
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(145, 211, 255);
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
 }
